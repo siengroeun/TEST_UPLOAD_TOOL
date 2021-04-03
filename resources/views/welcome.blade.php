@@ -1409,7 +1409,8 @@
                   console.log(last_url[1])
                   var source1='{{ asset("storage/")}}';
                   var source2=source1.concat("/"+last_url[1])
-                   // i+='<video src="'+source2+'" controls ></video>';
+                   i+='<video src="'+source2+'" controls ></video>';
+                           $("#video_local").html(i)
                    // video_url='https://toolpe.000webhostapp.com/testupload.MOV'
                    video_url=source2
                       loadPEImages();
